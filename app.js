@@ -1,24 +1,24 @@
-// datatype
-// primitive and non primitive
-// Variables
-//var universal scope so go with let
-
-var name="Aishu"//"" is similar to ''
-name="Nisha"
-name=""
-let age=20;
-console.log(name)
-console.log(age)
+let Name="Aishwarya"
+let age=20
+console.log(Name.bold())
+console.log(age.toString())
 console.log(typeof age)
-console.log(typeof name)
-let brand
-console.log(brand)//undefined
-
-//Non primitive
-let arr=[1,2,3,4,5,6,7,8,9,10]
-arr.push("value")
-arr.push(true)
-arr.unshift("y")
-arr.unshift(".")
-console.log(typeof arr)
-console.log(arr)
+//operators
+const a=2;
+const b=15;
+let c=0;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a ** b);
+console.log(b % a);
+console.log(age + b);
+console.log("---------------------------------------------------------------------------------");
+c+=1
+c++//c+=1
+console.log(c);
+c*=5
+console.log(c);//c=c*5;
+c**=3
+console.log(c);
