@@ -1,15 +1,24 @@
-//comparison operators
-const a=21
-const b=7
-const c=21
-console.log(a>b)
-console.log(a<b)
-console.log(a==b)
-console.log(a==c)
-console.log(a>=b)
-const e=11
-const f="11"
-console.log(a==b)
-console.log(a>b)
-console.log(a===b)//check type also (ie e==f && number==string=t && f=f)
-console.log("a"=="A")
+//Logical Operators
+const a = 2
+const b = 3
+console.log('a == b', a == b)
+console.log('a != b', a != b)
+console.log('')
+
+console.log('Truth table for AND')
+console.log('')
+
+console.log('false && false', false && false)
+console.log('true && true', true && true)
+console.log('true && false', true && false)
+console.log('false && true', false && true)
+console.log('')
+
+console.log('Truth table for OR')
+console.log('')
+
+console.log('false|| false', false || false)
+console.log('true|| true', true || true)
+console.log('true|| false', true || false)
+console.log('false|| true', false || true)
+
