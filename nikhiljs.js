@@ -89,3 +89,41 @@ console.log("Hello participants");//printed first then the "then" statements
 
 //this is used mainly white connected the frontend to api's
 
+
+//Async and Await function
+
+async function afunc(){
+  try{
+      let result= await attendConcert;
+      console.log(result)   
+  }
+  
+  catch(e){
+      console.log(e)
+  }
+  
+}
+console.log("afun = ",afunc())
+//line 84 and 97(called at 100) does exactly the same thing.
+//async await is an alternative
+//Without async await won't work
+//try and catch is to handle reject stage.
+//To explore its importance command try catch block and change 55th line to false.
+//catch(e) here,e is not a keyword we can use whatever over there its just to print the error message.
+
+let asyfuncname = async() =>{
+  try{
+      let result= await attendConcert;
+      console.log(result)   
+  }
+  
+  catch(e){
+      console.log(e)
+  }
+  
+}
+asyfuncname();
+console.log("THis is arrow function")
+
+
+
