@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- above line is to link bootstrap css file with html page (get  it from https://getbootstrap.com/docs/5.1/getting-started/introduction/) -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn btn-primary">Submit</button>
+    <!-- //class btn is to make the button white
+    //class btn-primary is to make it bundle
+    //These are bootstrap classes -->
+    <button class="btn btn-outline-primary">Submit</button>
+    <button class="btn btn-success">Submit</button>
+    <button class="btn btn-outline-success">Submit</button>
+    <button class="btn btn-danger">Submit</button>
+    <button class="btn btn-outline-danger">Submit</button>
+    <button class="btn btn-primary">Submit</button>
+
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+
+<!-- //above are bootstrap default colors and styles
+
+//Below code is to customise it -->
+<p>Customised styles</p>
+<button style="background-color: rgb(180, 199, 199); width: 500px;" class="btn btn-primary">Submit</button>
+<!-- Here css overrides bootstrap -->
+
+<!-- Breakpoints(Alternative to flex in css) -->
+<div class="row">
+    <!-- <div class="col">1</div>
+    <div class="col">2</div>
+    <div class="col">3</div>
+    <div class="col">4</div><br> -->
+    <!-- <div class="col-md-6 col-lg-3">1</div>
+    <div class="col-md-6 col-lg-3">2</div>
+    <div class="col-md-6 col-lg-3">3</div>
+    <div class="col-md-6 col-lg-3">4</div> -->
+    <div style="border:2px solid Pink;" class="col-md-6 col-lg-3">1</div>
+    <div style="border:2px solid Pink;" class="col-md-6 col-lg-3">2</div>
+    <div style="border:2px solid Pink;" class="col-md-6 col-lg-3">3</div>
+    <div style="border:2px solid Pink;" class="col-md-6 col-lg-3">4</div>
+<br>
+    <div style="border:2px solid green;" class="col-md-6 col-lg-1">1</div>
+    <div style="border:2px solid green;" class="col-md-6 col-lg-2">2</div>
+    <div style="border:2px solid green;" class="col-md-6 col-lg-3">3</div>
+    <div style="border:2px solid green;" class="col-md-6 col-lg-4">4</div>
+<br>
+    <div style="border:2px solid blue;" class="col-md-6">1</div>
+    <div style="border:2px solid blue;" class="col-md-6">2</div>
+    <div style="border:2px solid blue;" class="col-md-6">3</div>
+    <div style="border:2px solid blue;" class="col-md-6">4</div>
+
+    <!-- for mobile phones -->
+    <!-- This style makes it responsive in all size of screen 
+    its normally temed as xs-xtra small -->
+    <!-- <div style="border:2px solid tomato;" class="col-2">1</div>
+    <div style="border:2px solid tomato;" class="col-2">2</div>
+    <div style="border:2px solid tomato;" class="col-2">3</div>
+    <div style="border:2px solid tomato;" class="col-2">4</div><br> -->
+    <!-- Alternative to certain media queries -->
+
+         <div style="border:2px solid tomato;" class="col-12 col-md-6 col-lg-3"><img width="100%" height="100% "src="boot.jpg"></div>
+         <div style="border:2px solid tomato;" class="col-12 col-md-6 col-lg-3"><img width="100%" height="100% " src="boot.jpg"></div>
+         <div style="border:2px solid tomato;" class="col-12 col-md-6 col-lg-3"><img width="100%" height="100% " src="boot.jpg"></div>
+         <div style="border:2px solid tomato;" class="col-12 col-md-6 col-lg-3"><img width="100%" height="100% " src="boot.jpg"></div><br>
+
+       
+</div>
+<!-- Class col makes it separate column and equally spaced else it might look like
+1
+2
+3
+4 -->
+<!-- md-medium devices(tablet) and lg-large devices(laptop and desktop)
+ultimately for responsiveness -->
+<!-- 6 and 4 are grid size 
+grid ranges from 0 to 12
+0=0%
+12=100%
+6=50%
+3=25% -->
+<!-- Resize output screen to explore -->
+<!-- If large is not given then given medium size is taken as default -->
+    <script src="bootstrap.js"></script>
+    <!-- Always first -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script> <!--from web -->
+
+</body>
+</html>
